@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-const User = require("./User");
+const User = require("./user");
 require("dotenv").config(); // Load env vars from .env
 
 const app = express();
